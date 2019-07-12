@@ -184,3 +184,54 @@ h1,h2,h3,h4,h5,h6{
     background-color: #00E1D0;
     color: white;
 }
+
+/*Video*/
+.video{
+    height: 550px;
+    width: 100%;
+    background: url("../video.jpg") center no-repeat;
+    background-size: cover;
+}
+.video__text{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 335px;   
+}
+
+/*Expertise*/
+.expertise{
+    width: 100%;
+    height: 755px;
+}
+.expertise__title{
+    padding-top: 70px;
+    text-align: center;
+}
+.expertise__title1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 3px;
+    color: #403A4A;
+    text-transform: uppercase;
+}
+.expertise__title2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 15px;
+    color: #A2A0A4;
+}
+.expertise__title:after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #C8C5CA;
+    margin: 19px auto 0;
+}
+
