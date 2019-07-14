@@ -234,4 +234,28 @@ h1,h2,h3,h4,h5,h6{
     background-color: #C8C5CA;
     margin: 19px auto 0;
 }
-
+.expertise__content{
+    padding: 0 20px;
+    margin-top: 165px;
+    display: grid;
+    grid-template-columns: 260px 260px 260px;
+    grid-column-gap: 70px;
+    grid-template-rows: 220px 220px;
+}
+.expertise__block__title{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #403A4A;
+    text-transform: uppercase;
+}
+.expertise__block__text{
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #8E8E8E;
+    line-height: 22px;
+}
